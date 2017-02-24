@@ -27,7 +27,7 @@ function init() {
 
 	createSky();
 	camera.add( listener );
-	audioLoader.load( 'http://localhost:8000/music.mp3', function( buffer ) {
+	audioLoader.load( 'music.mp3', function( buffer ) {
 	sound.setBuffer( buffer );
 	sound.setLoop(true);
 	sound.setVolume(0.5);
