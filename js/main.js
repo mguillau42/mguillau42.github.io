@@ -27,7 +27,7 @@ function init() {
 
 	createSky();
 	camera.add( listener );
-	audioLoader.load( 'music.mp3', function( buffer ) {
+	audioLoader.load( 'music.ogg', function( buffer ) {
 	sound.setBuffer( buffer );
 	sound.setLoop(true);
 	sound.setVolume(0.5);

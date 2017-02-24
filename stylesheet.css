@@ -5,4 +5,15 @@
 	overflow: hidden;
 	display: inline-block;
 	background: linear-gradient(#09153c, #2375ac);
+	z-index: -1;
+}
+
+#footer {
+	display: inline-block;
+	vertical-align: bottom;
+	z-index: 1;
+	height: 48px;
+	width: 48px;
+	margin: 20px;
+
 }
